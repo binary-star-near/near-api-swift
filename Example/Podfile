@@ -1,11 +1,15 @@
 use_frameworks!
 
+platform :ios, '9.3'
+
+source 'https://github.com/CocoaPods/Specs.git'
+
 target 'nearclientios_Example' do
   pod 'nearclientios', :path => '../'
 
   target 'nearclientios_Tests' do
     inherit! :search_paths
-    pod 'Quick'
-    pod 'Nimble'
+    pod 'Quick', '4.0.0'
+    pod 'Nimble', '9.2.1'
   end
 end

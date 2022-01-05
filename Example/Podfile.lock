@@ -11,7 +11,7 @@ PODS:
     - Base58Swift (~> 2.1.7)
     - KeychainAccess (~> 4.1.0)
     - TweetNacl (~> 1.0)
-  - Nimble (8.0.4)
+  - Nimble (9.2.1)
   - PromiseKit (6.11.0):
     - PromiseKit/CorePromise (= 6.11.0)
     - PromiseKit/Foundation (= 6.11.0)
@@ -21,24 +21,25 @@ PODS:
     - PromiseKit/CorePromise
   - PromiseKit/UIKit (6.11.0):
     - PromiseKit/CorePromise
-  - Quick (2.2.0)
+  - Quick (4.0.0)
   - SipHash (1.2.2)
   - TweetNacl (1.0.2)
 
 DEPENDENCIES:
   - nearclientios (from `../`)
-  - Nimble
-  - Quick
+  - Nimble (= 9.2.1)
+  - Quick (= 4.0.0)
 
 SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - Nimble
+    - Quick
   trunk:
     - AwaitKit
     - Base58Swift
     - BigInt
     - KeychainAccess
-    - Nimble
     - PromiseKit
-    - Quick
     - SipHash
     - TweetNacl
 
@@ -52,12 +53,12 @@ SPEC CHECKSUMS:
   BigInt: 76b5dfdfa3e2e478d4ffdf161aeede5502e2742f
   KeychainAccess: 445e28864fe6d3458b41fa211bcdc39890e8bd5a
   nearclientios: ea8e674ac9dde3cfd1e6f53f9dbb53f724bfd903
-  Nimble: 18d5360282923225d62b09d781f63abc1a0111fc
+  Nimble: e7e615c0335ee4bf5b0d786685451e62746117d5
   PromiseKit: e4863d06976e7dee5e41c04fc7371c16b3600292
-  Quick: 7fb19e13be07b5dfb3b90d4f9824c855a11af40e
+  Quick: 6473349e43b9271a8d43839d9ba1c442ed1b7ac4
   SipHash: fad90a4683e420c52ef28063063dbbce248ea6d4
   TweetNacl: 3abf4d1d2082b0114e7a67410e300892448951e6
 
-PODFILE CHECKSUM: 94032e5674b919cac77bff067f1a3ae57504b308
+PODFILE CHECKSUM: 3e770244908676b43463d8852e282c0ea83f0740
 
-COCOAPODS: 1.9.2
+COCOAPODS: 1.11.2

@@ -73,7 +73,7 @@ class WelcomeViewController: UIViewController {
   @IBAction func tapShowAuthForm(_ sender: UIButton) {
     let appName = UIApplication.name ?? "signInTitle"
     (UIApplication.shared.delegate as? AppDelegate)?.walletSignIn = self
-    try! await(walletAccount!.requestSignIn(contractId: "signInContract",
+    try! await(walletAccount!.requestSignIn(contractId: "signin",
                                             title: appName,
                                             successUrl: URL(string: "nearclientios://success"),
                                             failureUrl: URL(string: "nearclientios://fail"),
